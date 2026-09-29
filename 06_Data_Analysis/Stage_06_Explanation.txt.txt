@@ -1,0 +1,33 @@
+STAGE 6: DATA ANALYSIS
+
+Purpose:
+To analyze the aggregated financial data and identify important spending, income, savings, and relationship patterns.
+
+Input:
+1. expense_by_category.csv
+2. monthly_summary.csv
+
+Operations:
+1. Calculate descriptive statistics for expense categories.
+2. Identify the category with the highest total spending.
+3. Identify the month with the highest total expense.
+4. Identify the month with the highest total income.
+5. Identify the month with the highest savings.
+6. Calculate the correlation between monthly income and monthly expenses.
+
+Analysis Outputs:
+- Descriptive statistics
+- Highest spending category
+- Highest expense month
+- Highest income month
+- Highest savings month
+- Income-expense correlation
+
+Purpose of Correlation:
+Correlation is used to measure the relationship between monthly income and monthly expenses.
+
+Output:
+Important financial patterns and statistical results are identified for visualization and interpretation in the next stages.
+
+Python File:
+data_analysis.py

@@ -1,0 +1,40 @@
+STAGE 2: DATA ACQUISITION & FILTERING
+
+Purpose:
+To select the required data fields and filter the transaction records before further processing.
+
+Input Data:
+1. Expenses_clean.csv
+2. Income_clean.csv
+
+Operations:
+1. Load the expense and income datasets.
+2. Select the required columns.
+3. Check the transaction amount.
+4. Keep only records where the amount is greater than zero.
+
+Original Columns Used:
+- date_time
+- category
+- account
+- amount
+- currency
+- tags
+
+Filtering Result:
+
+Expense data:
+Original records: 938
+Records after filtering: 924
+
+Income data:
+Original records: 349
+Records after filtering: 349
+
+The filtering removed expense records with non-positive amounts.
+
+Output:
+Filtered expense and income data are prepared for the data extraction stage.
+
+Python File:
+data_acquisition_filtering.py

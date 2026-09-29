@@ -1,0 +1,35 @@
+STAGE 8: RESULTS & INTERPRETATION
+
+Purpose:
+To summarize the important findings from the data analysis and explain the financial patterns identified from the dataset.
+
+Input:
+1. monthly_summary.csv
+2. expense_by_category.csv
+
+Operations:
+1. Identify the highest spending category.
+2. Identify the month with the highest total expense.
+3. Identify the month with the highest total income.
+4. Identify the month with the highest savings.
+5. Calculate and interpret the income-expense correlation.
+6. Generate a final results report.
+
+Key Results:
+- Highest spending category: Loan given
+- Highest expense month: March 2025
+- Highest income month: September 2025
+- Highest savings month: September 2025
+- Income-expense correlation: 0.7675
+
+Interpretation:
+The analysis identifies the major spending categories and the months with the highest income, expenses, and savings. The positive correlation value indicates a positive relationship between monthly income and monthly expenses in this dataset.
+
+Output:
+The final interpretation report is saved in the outputs/reports folder.
+
+Output File:
+- results_interpretation.txt
+
+Python File:
+results_interpretation.py

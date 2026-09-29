@@ -1,0 +1,32 @@
+STAGE 7: DATA VISUALIZATION
+
+Purpose:
+To represent the analyzed financial data using charts so that spending, income, expenses, and savings patterns can be understood easily.
+
+Input:
+1. expense_by_category.csv
+2. monthly_summary.csv
+
+Operations:
+1. Create a bar chart showing total expense by category.
+2. Create a line chart comparing monthly income and monthly expenses.
+3. Create a bar chart showing monthly savings.
+
+Charts Created:
+- Expense by Category
+- Monthly Income vs Expense
+- Monthly Savings
+
+Purpose of Visualizations:
+Charts make it easier to identify differences between expense categories and observe changes in income, expenses, and savings over time.
+
+Output:
+The charts are saved in the outputs/charts folder.
+
+Output Files:
+- expense_by_category.png
+- monthly_income_vs_expense.png
+- monthly_savings.png
+
+Python File:
+data_visualization.py

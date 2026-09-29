@@ -1,0 +1,42 @@
+STAGE 4: DATA VALIDATION & CLEANING
+
+Purpose:
+To check the quality of the transaction data and remove invalid or duplicate records before analysis.
+
+Validation Checks:
+1. Missing values
+2. Duplicate records
+3. Invalid dates
+4. Invalid amounts
+
+Expense Data Validation:
+- Missing values: 0
+- Duplicate rows: 145
+- Invalid dates: 0
+- Invalid amounts: 14
+
+Income Data Validation:
+- Missing values: 0
+- Duplicate rows: 0
+- Invalid dates: 0
+- Invalid amounts: 0
+
+Cleaning Operations:
+1. Remove duplicate records.
+2. Remove records with missing important values.
+3. Remove records with invalid dates.
+4. Remove records with non-positive amounts.
+
+Cleaned Data:
+- Cleaned expenses: 780 records
+- Cleaned income: 349 records
+
+Output:
+The cleaned datasets are saved in the dataset/processed folder.
+
+Output Files:
+- cleaned_expenses.csv
+- cleaned_income.csv
+
+Python File:
+data_validation_cleaning.py

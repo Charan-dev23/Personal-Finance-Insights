@@ -1,0 +1,40 @@
+STAGE 5: DATA AGGREGATION & REPRESENTATION
+
+Purpose:
+To summarize the cleaned transaction data into useful financial groups and calculate monthly financial measures.
+
+Input:
+1. cleaned_expenses.csv
+2. cleaned_income.csv
+
+Operations:
+1. Group expenses by category and calculate the total amount.
+2. Group expenses by year and month.
+3. Group income by year and month.
+4. Combine monthly income and expense data.
+5. Calculate monthly savings.
+
+Aggregated Outputs:
+- expense_by_category
+- expense_by_month
+- income_by_month
+- monthly_summary
+
+Derived Fields in monthly_summary:
+- total_income
+- total_expense
+- savings
+
+Calculations:
+Total Income = Sum of income transactions for each month.
+Total Expense = Sum of expense transactions for each month.
+Savings = Total Income - Total Expense
+
+Output Files:
+- expense_by_category.csv
+- expense_by_month.csv
+- income_by_month.csv
+- monthly_summary.csv
+
+Python File:
+data_aggregation.py
