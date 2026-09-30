@@ -37,10 +37,12 @@ The project uses two transaction datasets:
 ### Original Dataset Size
 
 **Expenses**
+
 - Records: 938
 - Columns: 6
 
 **Income**
+
 - Records: 349
 - Columns: 6
 
@@ -142,6 +144,17 @@ The final stage summarizes the important findings and saves the results in:
 
 The correlation indicates a positive relationship between monthly income and monthly expenses in this dataset. Correlation does not imply causation.
 
+## Team Members & Contributions
+
+| Team Member | Roll Number | Primary Contribution |
+|---|---|---|
+| M. Uday Sai Reddy | 26B21CS063 | Data Loading, Acquisition & Filtering |
+| P. Sai Praneeth | 25B11CS763 | Data Extraction, Validation & Cleaning |
+| Y.N.S. Charan | 26B21CS097 | Data Aggregation, Representation & Analysis |
+| SK. Masthan | 26B21CS096 | Data Visualization, Results & Interpretation |
+
+All team members are expected to understand the complete project workflow, preprocessing, analysis, visualizations, and conclusions.
+
 ## Project Structure
 
 ```text
@@ -164,4 +177,21 @@ Personal-Finance-Insights/
 │   ├── charts/
 │   └── reports/
 │
-└── requirements.txt
+├── review-ppts/
+│   ├── Review-1 Presentation
+│   └── Review-2 Presentation
+│
+├── .gitignore
+├── README.md
+└── requirements.txt```
+Limitations
+The analysis is based on the available transaction dataset.
+The dataset currency is BYN.
+Payment mode is not available as a dataset field.
+Monthly income is derived from individual income transactions.
+The analysis identifies relationships and patterns but does not establish causation.
+Conclusion
+
+The project demonstrates an end-to-end data analysis workflow for personal finance data, from raw transaction data loading and cleaning to aggregation, statistical analysis, visualization, and interpretation.
+
+The results provide insights into spending categories, monthly financial activity, savings, and the relationship between income and expenses.
