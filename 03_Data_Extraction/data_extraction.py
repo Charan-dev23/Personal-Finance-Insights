@@ -26,3 +26,22 @@ print()
 print("EXTRACTED INCOME DATA")
 print("---------------------")
 print(income[["date_time", "category", "amount", "year", "month", "month_name"]].head())
+
+output 
+EXTRACTED EXPENSE DATA
+----------------------
+   date_time          category  amount  year  month month_name
+0 2025-11-30            Health   114.0  2025     11   November
+1 2025-11-29              Food     5.0  2025     11   November
+2 2025-11-27  Public transport     1.0  2025     11   November
+3 2025-11-27              Cafe    10.0  2025     11   November
+4 2025-11-27  Public transport     1.0  2025     11   November
+
+EXTRACTED INCOME DATA
+---------------------
+   date_time     category  amount  year  month month_name
+0 2025-11-29          Job    49.0  2025     11   November
+1 2025-11-29          Job    18.0  2025     11   November
+2 2025-11-29          Job    32.0  2025     11   November
+3 2025-11-29          Job   109.0  2025     11   November
+4 2025-11-28  Second work   132.0  2025     11   November
