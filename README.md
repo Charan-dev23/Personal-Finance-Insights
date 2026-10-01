@@ -134,6 +134,24 @@ The final stage summarizes the important findings and saves the results in:
 
 `outputs/reports/results_interpretation.txt`
 
+### Dataset
+
+The project uses the following transaction datasets:
+
+Expenses_clean.csv
+Income_clean.csv
+Dataset Source
+
+The original dataset was obtained from Kaggle:
+
+Financial Transactions Dataset (Expenses & Income)
+Author: artemkabseu
+Source: https://www.kaggle.com/datasets/artemkabseu/financial-transactions-dataset-expenses-and-income
+
+The dataset contains personal financial transaction records, including expenses and income, with attributes such as date/time, category, account, amount, currency, and tags.
+
+The dataset uses BYN (Belarusian Ruble) as the currency.
+
 ## Key Results
 
 - Highest spending category: **Loan given — 2809 BYN**
