@@ -184,5 +184,17 @@ Personal-Finance-Insights/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-'''text
+```
+Limitations
+The analysis is based on the available transaction dataset.
+The dataset currency is BYN.
+Payment mode is not available as a dataset field.
+Monthly income is derived from individual income transactions.
+The analysis identifies relationships and patterns but does not establish causation.
+Conclusion
+
+The project demonstrates an end-to-end data analysis workflow for personal finance data, from raw transaction data loading and cleaning to aggregation, statistical analysis, visualization, and interpretation.
+
+The results provide insights into spending categories, monthly financial activity, savings, and the relationship between income and expenses.
+
 
