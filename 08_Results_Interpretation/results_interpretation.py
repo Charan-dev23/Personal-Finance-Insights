@@ -63,3 +63,39 @@ print()
 print(report)
 print()
 print("Results report saved in outputs/reports/")
+
+
+output: 
+PERSONAL FINANCE INSIGHTS
+RESULTS AND INTERPRETATION
+
+1. Highest Spending Category
+Category: Loan given
+Amount: 2809.00
+
+2. Highest Expense Month
+Year: 2025
+Month: 3
+Total Expense: 3272.00
+
+3. Highest Income Month
+Year: 2025
+Month: 9
+Total Income: 5730.00
+
+4. Highest Savings Month
+Year: 2025
+Month: 9
+Savings: 2824.00
+
+5. Income and Expense Relationship
+Correlation: 0.7675
+
+Interpretation:
+The analysis identifies the expense categories and months with the highest financial activity. The highest spending category represents the category with the largest total recorded expense. Monthly income and expense values show how financial activity changes over time. The correlation value indicates a positive relationship between monthly income and monthly expenses in this dataset.
+
+Note:
+Monthly income is derived by aggregating individual income transactions. The dataset does not contain a separate payment-mode field.
+
+
+Results report saved in outputs/reports/
