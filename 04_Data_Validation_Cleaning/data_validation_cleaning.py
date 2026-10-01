@@ -44,3 +44,42 @@ print("------------")
 print("Cleaned expenses:", expenses.shape)
 print("Cleaned income:", income.shape)
 print("Cleaned files saved in dataset/processed/")
+
+output 
+EXPENSE DATA VALIDATION
+-----------------------
+Missing values:
+date_time    0
+category     0
+account      0
+amount       0
+currency     0
+tags         0
+dtype: int64
+
+Duplicate rows: 145
+Invalid dates: 0
+Invalid amounts: 14
+
+INCOME DATA VALIDATION
+----------------------
+Missing values:
+date_time    0
+category     0
+account      0
+amount       0
+currency     0
+tags         0
+dtype: int64
+
+Duplicate rows: 0
+Invalid dates: 0
+Invalid amounts: 0
+
+CLEANED DATA
+------------
+Cleaned expenses: (780, 6)
+Cleaned income: (349, 6)
+Cleaned files saved in dataset/processed/
+
+
