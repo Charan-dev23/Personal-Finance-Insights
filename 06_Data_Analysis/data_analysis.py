@@ -51,3 +51,53 @@ print()
 print("INCOME-EXPENSE CORRELATION")
 print("--------------------------")
 print(correlation)
+output:
+
+DESCRIPTIVE STATISTICS
+----------------------
+count      14.000000
+mean     1049.500000
+std       874.059209
+min        45.000000
+25%       413.000000
+50%       874.500000
+75%      1379.000000
+max      2809.000000
+Name: amount, dtype: float64
+
+HIGHEST SPENDING CATEGORY
+--------------------------
+category    Loan given
+amount          2809.0
+Name: 0, dtype: object
+
+HIGHEST EXPENSE MONTH
+---------------------
+year             2025.0
+month               3.0
+total_income     3092.0
+total_expense    3272.0
+savings          -180.0
+Name: 2, dtype: float64
+
+HIGHEST INCOME MONTH
+---------------------
+year             2025.0
+month               9.0
+total_income     5730.0
+total_expense    2906.0
+savings          2824.0
+Name: 8, dtype: float64
+
+HIGHEST SAVINGS MONTH
+----------------------
+year             2025.0
+month               9.0
+total_income     5730.0
+total_expense    2906.0
+savings          2824.0
+Name: 8, dtype: float64
+
+INCOME-EXPENSE CORRELATION
+--------------------------
+0.7675041682535949
