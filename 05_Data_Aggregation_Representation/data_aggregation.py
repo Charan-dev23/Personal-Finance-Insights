@@ -66,5 +66,32 @@ print("MONTHLY FINANCIAL SUMMARY")
 print("-------------------------")
 print(monthly_summary)
 
-print()
-print("Aggregation files saved in outputs/reports/")
+output 
+EXPENSE BY CATEGORY
+-------------------
+             category  amount
+9          Loan given  2809.0
+10              Other  2699.0
+4                Food  1528.0
+1                Cafe  1413.0
+5               Gifts  1277.0
+0   Bought for myself  1273.0
+8             Leisure   945.0
+6              Health   804.0
+12               Taxi   770.0
+2             Clothes   548.0
+
+MONTHLY FINANCIAL SUMMARY
+-------------------------
+    year  month  total_income  total_expense  savings
+0   2025      1        1864.0          969.0    895.0
+1   2025      2        1647.0          615.0   1032.0
+2   2025      3        3092.0         3272.0   -180.0
+3   2025      4        1423.0         1167.0    256.0
+4   2025      5        2010.0          633.0   1377.0
+5   2025      6        2227.0          682.0   1545.0
+6   2025      7        1967.0          811.0   1156.0
+7   2025      8        2359.0          828.0   1531.0
+8   2025      9        5730.0         2906.0   2824.0
+9   2025     10        2993.0         1928.0   1065.0
+10  2025     11        1317.0          882.0    435.0
